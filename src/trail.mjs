@@ -3,7 +3,7 @@
  *
  * A trail is a JSONL file of GhostGuard GatewayRecords — one record per
  * line, exactly what GhostGuard's reference recorder
- * (createJsonlRecorder in ghostguard/dist) writes. Blank lines are
+ * (createJsonlRecorder in the ghostguard package) writes. Blank lines are
  * ignored. Anything else that is not a record-shaped object is reported
  * in `errors` with its 1-based line number — never silently skipped.
  * (GhostGuard's own readGatewayRecords throws on a malformed line; this

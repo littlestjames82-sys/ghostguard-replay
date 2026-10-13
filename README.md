@@ -14,9 +14,8 @@ writes GatewayRecords):
   reported with its per-component breakdown.
 
 By **Ghost Developer Studio**. Standalone package: Node ≥ 18, ESM,
-zero runtime dependencies. It imports the GhostGuard engine from the
-sibling core package's built `dist/` (`../../ghostguard/dist`) and
-never modifies the core. Public repository — v0.1.0.
+one runtime dependency. It imports the GhostGuard engine from the
+published `ghostguard` package and never modifies the core. Public repository — v0.1.0.
 
 ## Quick start
 

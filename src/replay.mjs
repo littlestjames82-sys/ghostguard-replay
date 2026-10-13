@@ -5,7 +5,7 @@
  * Takes a JSONL trail of real GhostGuard GatewayRecords and a NEW
  * policy document (GhostGuard PolicyDoc format), re-evaluates each
  * recorded action's intent through the REAL GhostGuard engine
- * (compilePolicy / evaluatePolicy from ghostguard/dist — this package
+ * (compilePolicy / evaluatePolicy from the published ghostguard package — this package
  * never modifies the core), and diffs old verdict vs new verdict.
  *
  * The dangerous direction is LOOSENING: a new policy that would have
@@ -32,7 +32,7 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 
-import { compilePolicy, evaluatePolicy } from "../../ghostguard/dist/index.js";
+import { compilePolicy, evaluatePolicy } from "ghostguard";
 import { loadTrail } from "./trail.mjs";
 
 /**

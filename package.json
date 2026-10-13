@@ -4,6 +4,9 @@
     "ghostguard-score": "./src/score.mjs"
   },
   "description": "GhostGuard Policy Replay/Backtest + Guard Score \u2014 re-evaluate a recorded GatewayRecord trail through a new policy and diff the verdicts, and compute a structural, explainable Guard Score from a trail. By Ghost Developer Studio.",
+  "dependencies": {
+    "ghostguard": "^0.1.0"
+  },
   "engines": {
     "node": ">=18.0.0"
   },
