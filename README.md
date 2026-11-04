@@ -1,4 +1,5 @@
 # GhostGuard Replay + Guard Score
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) [![Release](https://img.shields.io/github/v/release/littlestjames82-sys/ghostguard-replay)](https://github.com/littlestjames82-sys/ghostguard-replay/releases)
 
 **Backtest a policy change against a recorded trail before you activate it — and score the trail's governance shape, with the maths shown.**
 
